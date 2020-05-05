@@ -71,7 +71,7 @@ typedef struct samonEnv {
 
 } samonEnv;
 
-samonEnv SEnv;
+extern samonEnv SEnv;
 #endif
 
 

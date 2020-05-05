@@ -20,8 +20,8 @@
 data("samonPANSS1")
 data( "PSummary1" )
 PSummary1 <- (PSummary1$TM)[,c("alpha","IFEst")]
-Pdiff1 <- samonECompleterStatus( samonPANSS1[,ncol(samonPANSS1)], PSummary1[,2] )
-
+Pdiff1 <- samonECompleterStatus( samonPANSS1[,ncol(samonPANSS1)],
+                                 PSummary1[,2] )
 
 data("VAS1")
 data("VSummary1" )

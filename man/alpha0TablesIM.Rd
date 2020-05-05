@@ -1,10 +1,10 @@
 \name{alpha0TablesIM}
 \alias{alpha0TablesIM}
 \alias{alpha0TableResultsIM}
-\title{Makes samonIM result tables at sensitivity parameter alpha = 0.}
-\description{alpha0TableResultsIM collects results for tables at
-  sensitivity parameter alpha = 0 and alpha0TablesIM prints the output
-  from alpha0TableResultsIM} 
+\title{Makes samonIM result tables at sensitivity parameter alpha=0.}
+\description{alpha0TableResultsIM collects results for
+tables at sensitivity parameter alpha = 0 and alpha0TablesIM 
+prints the output from alpha0TableResultsIM} 
 \usage{alpha0TableResultsIM( Y1, samonR1, Y2, samonR2, samonRD)
 alpha0TablesIM( alpha0TableResultsObj, trt1lab = "Treatment 1",
 trt2lab = "Treatment 2")}

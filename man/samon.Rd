@@ -5,10 +5,11 @@
   trial, produces estimates of the expected value of the outcome at the
   final time-point for a range of sensitivity parameters.}
 \usage{samon(mat, Npart = 10, InitialSigmaH = 1.0, HighSigmaH = 2.0,
-InitialSigmaF = 1.0, HighSigmaF = 2.0, lb = 0, ub = 101, zeta1 = 1, zeta2 = 1,
-NSamples = 0, seed0 = 1, MaxIter = 25, FAconvg = 1E-7, FRconvg = 1E-7,
-SAconvg = 1E-7, alphaList= c(0), MJackknife = FALSE, SJackknife = FALSE,
-retIFiM = FALSE, retIFiS = FALSE, Tfun= NULL)
+InitialSigmaF = 1.0, HighSigmaF = 2.0, lb = 0, ub = 101, 
+zeta1 = 1, zeta2 = 1,NSamples = 0, seed0 = 1, MaxIter = 25,
+FAconvg = 1E-7, FRconvg = 1E-7, SAconvg = 1E-7, alphaList= c(0), 
+MJackknife = FALSE, SJackknife = FALSE, retIFiM = FALSE, 
+retIFiS = FALSE, Tfun= NULL)
 }
 \arguments{
   \item{mat}{ a matrix with the (i,j) entry representing the outcome

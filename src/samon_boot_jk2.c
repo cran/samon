@@ -76,6 +76,9 @@
 #include "samon_Util.h"
 #include "unique.h"
 
+samonEnv SEnv;
+IFscratch IFscr;
+
 // ------------------------------------------------------------------------
 void samon_boot_jk2 ( 
   int               *N0,   int               *NT,    double          *Mat, 

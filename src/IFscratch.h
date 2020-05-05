@@ -55,7 +55,7 @@ typedef struct IFFscratch {
 
 } IFscratch;
 
-IFscratch IFscr;
+extern IFscratch IFscr;
 
 // load the IFscratch area IFscr defined here
 //int load_IF(int N0, int NT, int nuvalues, double **uvalues );

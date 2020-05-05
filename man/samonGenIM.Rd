@@ -4,10 +4,10 @@
 \description{Given data from one arm of a repeated measures clinical
   trial with intermittent missing data, produces a sample based on the
   optimal smoothing parameters.}
-\usage{samonGenIM(mat, Npart = 10, InitialSigmaH = 1.0, HighSigmaH = 2.0,
-InitialSigmaF = 1.0, HighSigmaF = 2.0, inmodel = inmodel, NSamples = 0,
-seed0 = 1, seed1 = 1, MaxIter = 25, FAconvg = 1E-7, FRconvg = 1E-7,
-SAconvg = 1E-7)
+\usage{samonGenIM(mat, Npart = 10, InitialSigmaH = 1.0, 
+HighSigmaH = 2.0, InitialSigmaF = 1.0, HighSigmaF = 2.0, 
+inmodel = inmodel, NSamples = 0, seed0 = 1, seed1 = 1, 
+MaxIter = 25, FAconvg = 1E-7, FRconvg = 1E-7,SAconvg = 1E-7)
 }
 \arguments{
   \item{mat}{ a matrix with the (i,j) entry representing the outcome
