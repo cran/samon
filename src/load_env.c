@@ -159,7 +159,7 @@ int reload_env ( int N0, double startp, double startq )
 
 
 // Free the environment
-int free_env ( )
+int free_env (void)
 {
   int i;
   int NParts;

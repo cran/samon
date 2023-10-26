@@ -43,11 +43,11 @@ MaxIter = 25, FAconvg = 1E-7, FRconvg = 1E-7, SAconvg = 1E-7)
 
  A number of stopping criteria are available:
  MaxIter:  the maximum number of iterations to perform 
- FAconvg:  stop when abs( f_{i+1} - f_i ) < FAconvg, where f_i is
+ FAconvg:  stop when abs( fsub(i+1) - f_i ) < FAconvg, where f_i is
  the loss function value at iteration i.
- FRconvg: stop when abs( (f_{i+1} - f_i)/(f_{i+1} + f_i) ) < FRconvg.
+ FRconvg: stop when abs( (fsub(i+1) - f_i)/(fsub(i+1) + f_i)) < FRconvg.
  SAconvg: stop when the absolute step size falls below SAconvg,
-   i.e., abs( x_{i+1} - x_i ) < SAconvg.
+   i.e., abs( xsub(i+1) - x_i ) < SAconvg.
  HighSigmaH:  should the value of sigma H go above this value,
  then the optimal value of sigma H is set to HighSigmaH.  This is useful
  if larger values of sigma H do not change the missingness model

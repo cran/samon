@@ -1,7 +1,7 @@
 Package: samon
-Version: 4.0.1
+Version: 4.0.2
 Type: Package
-Date: 2020-04-06
+Date: 2023-10-08
 Title: Sensitivity Analysis for Missing Data
 Authors@R: c(person("Daniel", "O. Scharfstein", role = c("aut"), email = "dscharf@jhu.edu" ), person("Aidan", "McDermott", role = c("aut", "cre"), email = "amcderm1@jhu.edu")) 
 Author: Daniel O. Scharfstein [aut],
@@ -11,6 +11,6 @@ Description: In a clinical trial with repeated measures designs, outcomes are of
 License: GPL-2
 Depends: R (>= 2.10)
 NeedsCompilation: yes
-Packaged: 2020-05-04 00:12:00 UTC; cwang68
+Packaged: 2023-10-25 22:09:56 UTC; aidanmcdermott
 Repository: CRAN
-Date/Publication: 2020-05-05 13:40:02 UTC
+Date/Publication: 2023-10-26 07:10:02 UTC

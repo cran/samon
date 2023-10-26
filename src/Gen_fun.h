@@ -14,5 +14,5 @@ int Gen_fun(double **y, int n0, int nt, double **sampy, int Nsamp, double sigp, 
 int  seed_sgen(unsigned long long int inseed);
 
 // generate a double
-double sgen();
+double sgen(void);
 #endif

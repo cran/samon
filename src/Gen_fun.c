@@ -118,7 +118,7 @@ int  seed_sgen(unsigned long long int inseed)
   return 0;
 }
 
-double sgen()
+double sgen(void)
 {
   int pos;
   double x;

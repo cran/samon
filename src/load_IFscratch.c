@@ -61,7 +61,7 @@ int load_IF(int N0, int NT, int nuvalues, double **uvalues, int lenTfunMat, doub
    return 0;
 }
 
-int free_IF()
+int free_IF(void)
 {
 // ------------------------------------------------------------
 

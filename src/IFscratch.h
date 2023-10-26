@@ -61,6 +61,6 @@ extern IFscratch IFscr;
 //int load_IF(int N0, int NT, int nuvalues, double **uvalues );
 int load_IF(int N0, int NT, int nuvalues, double **uvalues, int lenTfunMat, double **TfunMat );
 // and free it
-int free_IF();
+int free_IF(void);
 
 #endif
